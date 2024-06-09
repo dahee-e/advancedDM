@@ -1,0 +1,13 @@
+k=16	V=16	len=1
+k=14	V=42	len=3
+k=13	V=30	len=2
+k=12	V=46	len=3
+k=11	V=210	len=14
+k=10	V=114	len=9
+k=9	V=127	len=8
+k=8	V=173	len=14
+k=7	V=224	len=21
+k=6	V=192	len=22
+k=5	V=176	len=22
+k=4	V=548	len=70
+k=3	V=925	len=67

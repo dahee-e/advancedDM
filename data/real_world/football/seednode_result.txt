@@ -1,0 +1,8 @@
+Network:	./data/real_world/football/network.dat
+entire graph V=115	E=613
+Time:	0.022510051727294922
+estimate community:	8
+approximated diamter:	None
+nmi_score: 0.659330943611781
+ari_score: 0.37078044436519614
+f1_score: 0.22947570332480818

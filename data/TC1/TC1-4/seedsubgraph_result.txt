@@ -1,0 +1,8 @@
+Network:	./data/TC1/TC1-4/1-4.dat
+entire graph V=10000	E=87214
+Time:	23.414818048477173
+estimate community:	186
+model:	ktruss
+nmi_score: 0.9782445066862955
+ari_score: 0.9375928098429511
+f1_score: 0.023156759578244073

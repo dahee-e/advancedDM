@@ -1,0 +1,7 @@
+k=10	V=20	len=1
+k=9	V=9	len=1
+k=8	V=30	len=3
+k=7	V=35	len=4
+k=6	V=13	len=2
+k=5	V=36	len=6
+k=4	V=18	len=2

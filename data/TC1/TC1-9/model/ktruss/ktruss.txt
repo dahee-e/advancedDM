@@ -1,0 +1,9 @@
+k=11	V=11	len=1
+k=10	V=55	len=5
+k=9	V=29	len=3
+k=8	V=46	len=5
+k=7	V=135	len=15
+k=6	V=280	len=31
+k=5	V=321	len=37
+k=4	V=349	len=52
+k=3	V=1396	len=130

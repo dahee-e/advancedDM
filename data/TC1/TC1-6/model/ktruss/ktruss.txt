@@ -1,0 +1,15 @@
+k=18	V=20	len=1
+k=17	V=18	len=1
+k=15	V=55	len=3
+k=14	V=20	len=1
+k=13	V=17	len=1
+k=12	V=90	len=5
+k=11	V=97	len=6
+k=10	V=114	len=8
+k=9	V=276	len=19
+k=8	V=239	len=19
+k=7	V=178	len=17
+k=6	V=181	len=22
+k=5	V=288	len=34
+k=4	V=536	len=83
+k=3	V=980	len=10

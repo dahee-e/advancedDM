@@ -1,0 +1,10 @@
+k=12	V=12	len=1
+k=11	V=75	len=5
+k=10	V=57	len=5
+k=9	V=59	len=5
+k=8	V=173	len=13
+k=7	V=315	len=27
+k=6	V=377	len=36
+k=5	V=324	len=38
+k=4	V=330	len=53
+k=3	V=1280	len=113

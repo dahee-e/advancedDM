@@ -1,0 +1,69 @@
+------------Real world------------
+strike
+Estimate number of communities: 2
+Execution time: 0.192623 seconds
+railway
+Estimate number of communities: 19
+Execution time: 7.871319 seconds
+mexican
+Estimate number of communities: 3
+Execution time: 0.296292 seconds
+dolphin
+Estimate number of communities: 3
+Execution time: 0.475375 seconds
+karate
+Estimate number of communities: 2
+Execution time: 0.270584 seconds
+polbooks
+Estimate number of communities: 5
+Execution time: 1.017681 seconds
+football
+Estimate number of communities: 8
+Execution time: 1.423195 seconds
+
+
+------------TC1------------
+TC1
+Estimate number of communities: 137
+Execution time: 1007.4046756239914 seconds
+TC2
+Estimate number of communities: 151
+Execution time: 1090.2924392069974 seconds
+TC3
+Estimate number of communities: 171
+Execution time: 1277.2912739720068 seconds
+TC4
+Estimate number of communities: 186
+Execution time: 1383.925152929996 seconds
+TC5
+Estimate number of communities: 209
+Execution time: 1520.1072984310044 seconds
+TC6
+Estimate number of communities: 230
+Execution time: 1661.3038646039943 seconds
+TC7
+Estimate number of communities: 256
+Execution time: 1859.3200996219998 seconds
+TC8
+Estimate number of communities: 296
+Execution time: 2127.971708539011 seconds
+TC9
+Estimate number of communities: 294
+Execution time: 2111.224930267011 seconds
+TC10
+Estimate number of communities: 294
+Execution time: 2080.0695570749745 seconds
+
+
+------------TC2------------
+tc11
+
+tc12
+
+tc13
+
+tc14
+
+tc15
+
+

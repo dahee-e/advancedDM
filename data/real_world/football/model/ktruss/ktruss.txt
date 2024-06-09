@@ -1,0 +1,4 @@
+k=9	V=18	len=2
+k=8	V=26	len=3
+k=7	V=18	len=2
+k=6	V=45	len=1

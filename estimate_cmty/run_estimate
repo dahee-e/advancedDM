@@ -1,0 +1,112 @@
+./communities < ../data/TC1/TC1-1/1-1.gml > ./estimate_value/TC1.txt
+./communities < ../data/TC1/TC1-2/1-2.gml > ./estimate_value/TC2.txt
+./communities < ../data/TC1/TC1-3/1-3.gml > ./estimate_value/TC3.txt
+./communities < ../data/TC1/TC1-4/1-4.gml > ./estimate_value/TC4.txt
+./communities < ../data/TC1/TC1-5/1-5.gml > ./estimate_value/TC5.txt
+./communities < ../data/TC1/TC1-6/1-6.gml > ./estimate_value/TC6.txt
+------------------
+
+
+
+
+./communities < ../data/TC1/TC1-7/1-7.gml > ./estimate_value/TC7.txt
+./communities < ../data/TC1/TC1-8/1-8.gml > ./estimate_value/TC8.txt
+./communities < ../data/TC1/TC1-9/1-9.gml > ./estimate_value/TC9.txt
+./communities < ../data/TC1/TC1-10/1-10.gml > ./estimate_value/TC10.txt
+
+Sweep = 50000
+K 값 (K = node/avg_degree)
+node = 10000
+TC1
+avg_degree = 16.6882
+K = 599
+
+
+TC2
+avg_degree = 17.2202
+K = 580
+
+TC3
+avg_degree = 17.175
+K = 582
+
+TC4
+avg_degree = 17.4428
+K = 573
+
+TC5
+avg_degree = 17.2476
+K = 579
+
+TC6
+avg_degree = 16.9008
+K = 591
+
+TC7
+avg_degree = 17.4904
+K = 571
+
+TC8
+avg_degree = 16.9754
+K = 589
+
+TC9
+avg_degree = 17.1318
+K = 583
+
+TC10
+avg_degree = 17.43
+K = 573
+
+
+
+
+
+
+./communities < ../data/real_world/karate/network.gml > karate.txt
+./communities < ../data/real_world/dolphin/network.gml > dolphin.txt
+./communities < ../data/real_world/football/network.gml > football.txt
+./communities < ../data/real_world/railway/network.gml > railway.txt
+./communities < ../data/real_world/polbooks/network.gml > polbooks.txt
+./communities < ../data/real_world/strike/network.gml > strike.txt
+./communities < ../data/real_world/mexican/network.gml > mexican.txt
+
+Sweep = 50000
+K 값 (K = node/avg_degree)
+
+karate
+node = 34
+avg_degree = 4.58823
+K = 7
+
+dolphin
+node = 62
+avg_degree = 5.1290
+K = 12
+
+football
+node = 115
+avg_degree = 10.6609
+K = 10
+
+railway
+node = 301
+avg_degree = 8.13289
+K = 37
+
+polbooks
+node = 105
+avg_degree = 8.4
+K = 12
+
+strike
+node = 24
+avg_degree = 3.16667
+K = 7
+
+mexican
+node = 35
+avg_degree = 6.68571
+K = 5
+
+

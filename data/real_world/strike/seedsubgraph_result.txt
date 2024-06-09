@@ -1,0 +1,8 @@
+Network:	./data/real_world/strike/network.dat
+entire graph V=24	E=38
+Time:	0.0016529560089111328
+estimate community:	2
+model:	ktruss
+nmi_score: 0.6111080141065621
+ari_score: 0.36224442162263093
+f1_score: 0.3994252873563218
