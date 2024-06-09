@@ -25,6 +25,8 @@ usage: mica [-h] {auto,ge,mds} ...
 
 MICA - Mutual Information-based Clustering Analysis tool.
 
+
+
 optional arguments:
   -h, --help     show this help message and exit
 
