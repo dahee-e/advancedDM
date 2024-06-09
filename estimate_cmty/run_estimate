@@ -4,15 +4,11 @@
 ./communities < ../data/TC1/TC1-4/1-4.gml > ./estimate_value/TC4.txt
 ./communities < ../data/TC1/TC1-5/1-5.gml > ./estimate_value/TC5.txt
 ./communities < ../data/TC1/TC1-6/1-6.gml > ./estimate_value/TC6.txt
-------------------
-
-
-
-
 ./communities < ../data/TC1/TC1-7/1-7.gml > ./estimate_value/TC7.txt
 ./communities < ../data/TC1/TC1-8/1-8.gml > ./estimate_value/TC8.txt
 ./communities < ../data/TC1/TC1-9/1-9.gml > ./estimate_value/TC9.txt
 ./communities < ../data/TC1/TC1-10/1-10.gml > ./estimate_value/TC10.txt
+
 
 Sweep = 50000
 K 값 (K = node/avg_degree)
