@@ -1,6 +1,6 @@
 Network:	./data/real_world/football/network.dat
 entire graph V=115	E=613
-Time:	0.022510051727294922
+Time:	0.0232698917388916
 estimate community:	8
 approximated diamter:	None
 nmi_score: 0.659330943611781

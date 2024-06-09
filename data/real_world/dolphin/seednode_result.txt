@@ -1,6 +1,6 @@
 Network:	./data/real_world/dolphin/network.dat
 entire graph V=62	E=159
-Time:	0.010394811630249023
+Time:	0.009938955307006836
 estimate community:	3
 approximated diamter:	None
 nmi_score: 0.6505236170294869

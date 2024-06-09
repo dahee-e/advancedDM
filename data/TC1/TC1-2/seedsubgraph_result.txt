@@ -1,6 +1,6 @@
 Network:	./data/TC1/TC1-2/1-2.dat
 entire graph V=10000	E=86101
-Time:	25.00340509414673
+Time:	25.231549739837646
 estimate community:	151
 model:	ktruss
 nmi_score: 0.9714134064589494

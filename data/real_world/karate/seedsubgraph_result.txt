@@ -1,6 +1,6 @@
 Network:	./data/real_world/karate/network.dat
 entire graph V=34	E=78
-Time:	0.0027878284454345703
+Time:	0.002834320068359375
 estimate community:	2
 model:	ktruss
 nmi_score: 0.8371694628777809

@@ -1,6 +1,6 @@
 Network:	./data/real_world/polbooks/network.dat
 entire graph V=105	E=441
-Time:	0.01615118980407715
+Time:	0.01590108871459961
 estimate community:	5
 model:	ktruss
 nmi_score: 0.4666528107783413

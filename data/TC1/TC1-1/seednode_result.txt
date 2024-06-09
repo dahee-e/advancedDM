@@ -1,6 +1,6 @@
 Network:	./data/TC1/TC1-1/1-1.dat
 entire graph V=10000	E=83441
-Time:	7.133253812789917
+Time:	7.211942195892334
 estimate community:	137
 approximated diamter:	None
 nmi_score: 0.8149223425812471

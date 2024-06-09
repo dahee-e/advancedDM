@@ -21,7 +21,7 @@ parser.add_argument('--model', default="ktruss",
                     help='specify model name (kcore,ktruss)')
 parser.add_argument('--network', default=f"./data/TC1/TC1-1/1-1.dat",help='a network file name')
 parser.add_argument('--approach', default="seedsubgraph",help='Specify approach name (seednode, seedgraph)')
-parser.add_argument('--num-community', default=2,help='Specify the number of communities on the network')
+parser.add_argument('--numCommunity', default=2,help='Specify the number of communities on the network')
 parser.add_argument("--centrality", type=str, required=False, default="degree,eigenvector,local_clustering_coefficient,PageRank", help="Centrality measures to use (degree, eigenvector, local_clustering_coefficient, PageRank)")
 
 
@@ -44,7 +44,7 @@ G.remove_edges_from(nx.selfloop_edges(G))
 print("network:\t", args.network)
 print("entire graph V=", G.number_of_nodes(), "\tE=", G.number_of_edges())
 print("approach:\t", args.approach)
-print("num-community:\t", args.estimateCmty)
+print("num-community:\t", int(args.numCommunity))
 if args.approach == "seednode":
     print("centrality measures to use:\t", args.centrality)
 else:
@@ -57,7 +57,7 @@ if args.approach == "seednode":
               centrality={centrality_measure: {} for centrality_measure in args.centrality.split(",")})
 
     start_time = time.time()
-    detected_communities,cmty_diameter = CDS.run(G, args.estimateCmty)
+    detected_communities,cmty_diameter = CDS.run(G, int(args.numCommunity))
     end_time = time.time()
     detected_communities = list(detected_communities.values())
     G = G.graph
@@ -70,9 +70,9 @@ elif args.approach == "seedsubgraph":
     start_time = time.time()
 
     if args.model == 'kcore':
-        seed_subgraph = kcore.run(G, args.estimateCmty, utils.get_base(args.network))
+        seed_subgraph = kcore.run(G, int(args.numCommunity), utils.get_base(args.network))
     elif args.model == 'ktruss':
-        seed_subgraph = ktruss.run(G, args.estimateCmty, utils.get_base(args.network))
+        seed_subgraph = ktruss.run(G, int(args.numCommunity), utils.get_base(args.network))
 
     # label propagation with nodes in G - seed_subgraph
     detected_communities = LP.label_propagation(G, seed_subgraph)
@@ -90,7 +90,7 @@ with open(utils.get_base(args.network) + args.approach + "_result.txt", 'w') as 
     f.write("Network:\t" + args.network + "\n")
     f.write("entire graph V=" + str(G.number_of_nodes()) + "\tE=" + str(G.number_of_edges()) + "\n")
     f.write("Time:\t" + str(end_time - start_time) + "\n")
-    f.write("estimate community:\t" + str(args.estimateCmty) + "\n")
+    f.write("estimate community:\t" + str(int(args.numCommunity)) + "\n")
     if args.approach == "seednode":
         f.write("approximated diamter:\t" + str(cmty_diamter) + "\n")
     if args.approach == "seedsubgraph":
@@ -103,7 +103,7 @@ with open(utils.get_base(args.network) + args.approach + "_result.txt", 'w') as 
 #print result
 print("------------RESULT------------")
 print("Time:\t", end_time - start_time)
-print("estimate community:\t", args.estimateCmty)
+print("estimate community:\t", int(args.numCommunity))
 if args.approach == "seednode":
     print("approximated diamter:\t", cmty_diamter)
 print("nmi_score:\t", nmi_score)

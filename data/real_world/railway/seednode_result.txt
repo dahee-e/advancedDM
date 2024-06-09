@@ -1,6 +1,6 @@
 Network:	./data/real_world/railway/network.dat
 entire graph V=301	E=1224
-Time:	0.053102970123291016
+Time:	0.05482602119445801
 estimate community:	19
 approximated diamter:	None
 nmi_score: 0.6090676381285155

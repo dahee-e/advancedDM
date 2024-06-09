@@ -1,6 +1,6 @@
 Network:	./data/real_world/karate/network.dat
 entire graph V=34	E=78
-Time:	0.006146669387817383
+Time:	0.0051729679107666016
 estimate community:	2
 approximated diamter:	None
 nmi_score: 0.7307867179111982
