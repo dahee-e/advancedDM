@@ -1,0 +1,7 @@
+Network:	./data/real_world/dolphin/network.dat
+entire graph V=62	E=159
+Time:	0.011399269104003906
+estimate community:	3
+nmi_score: 0.6505236170294869
+ari_score: 0.7598266692623017
+f1_score: 0.910394265232975

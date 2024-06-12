@@ -1,0 +1,7 @@
+Network:	./data/real_world/mexican/network.dat
+entire graph V=35	E=117
+Time:	0.006239891052246094
+estimate community:	3
+nmi_score: 0.1209942144999353
+ari_score: -0.000986967542226509
+f1_score: 0.2927731092436975

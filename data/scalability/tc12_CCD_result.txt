@@ -1,0 +1,7 @@
+Network:	./data/scalability/tc12.dat
+entire graph V=20000	E=198953
+Time:	27.40122389793396
+estimate community:	202
+nmi_score: None
+ari_score: None
+f1_score: None

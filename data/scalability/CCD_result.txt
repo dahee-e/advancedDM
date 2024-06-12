@@ -1,0 +1,8 @@
+Network:	./data/scalability/tc14.dat
+entire graph V=80000	E=804719
+Time:	300.1445949077606
+estimate community:	522
+approximated diameter:	3
+nmi_score: None
+ari_score: None
+f1_score: None

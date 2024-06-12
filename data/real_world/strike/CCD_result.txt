@@ -1,0 +1,7 @@
+Network:	./data/real_world/strike/network.dat
+entire graph V=24	E=38
+Time:	0.006021976470947266
+estimate community:	2
+nmi_score: 0.15449751575501647
+ari_score: -0.023192730231927302
+f1_score: 0.22499999999999998

@@ -1,0 +1,7 @@
+Network:	./data/TC1/TC1-1/1-1.dat
+entire graph V=10000	E=83441
+Time:	7.3473968505859375
+estimate community:	137
+nmi_score: 0.8149223425812471
+ari_score: 0.5911774208920701
+f1_score: 0.0007088407292741658
