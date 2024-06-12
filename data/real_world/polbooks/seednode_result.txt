@@ -1,8 +1,0 @@
-Network:	./data/real_world/polbooks/network.dat
-entire graph V=105	E=441
-Time:	0.05283617973327637
-estimate community:	5
-approximated diamter:	None
-nmi_score: 0.4433844675478288
-ari_score: 0.5085719014095241
-f1_score: 0.032199182800626266

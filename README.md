@@ -1,4 +1,5 @@
 # Community Detection Based on Estimated Number of Communities
+[Group10 : Dahee Kim,Eunyeong Sim, Euibun Bae]
 
 This repository contains two primary algorithms for community detection:
 

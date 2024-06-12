@@ -34,18 +34,24 @@ file_name = {'karate',
                 'polbooks',
                 'strike',
                 'mexican'}
-#synthetic data
-for number in range(1, 11):
-    dat_file_path = f'../data/TC1/TC1-{number}/1-{number}.dat'
-    gml_file_path = dat_file_path.replace('.dat', '.gml')
+# #synthetic data
+# for number in range(1, 11):
+#     dat_file_path = f'../data/TC1/TC1-{number}/1-{number}.dat'
+#     gml_file_path = dat_file_path.replace('.dat', '.gml')
+#
+#     edges = read_dat_file(dat_file_path)
+#     write_gml_file(edges, gml_file_path)
+#
+# #real world data
+# for file in file_name:
+#     dat_file_path = f'../data/real_world/{file}/network.dat'
+#     gml_file_path = dat_file_path.replace('.dat', '.gml')
+#     #
+#     edges = read_dat_file(dat_file_path)
+#     write_gml_file(edges, gml_file_path)
 
-    edges = read_dat_file(dat_file_path)
-    write_gml_file(edges, gml_file_path)
 
-#real world data
-for file in file_name:
-    dat_file_path = f'../data/real_world/{file}/network.dat'
-    gml_file_path = dat_file_path.replace('.dat', '.gml')
-    #
-    edges = read_dat_file(dat_file_path)
-    write_gml_file(edges, gml_file_path)
+dat_file_path = f'../data/scalability/tc15.dat'
+gml_file_path = dat_file_path.replace('.dat', '.gml')
+edges = read_dat_file(dat_file_path)
+write_gml_file(edges, gml_file_path)

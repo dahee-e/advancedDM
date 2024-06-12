@@ -1,8 +1,0 @@
-Network:	./data/TC1/TC1-8/1-8.dat
-entire graph V=10000	E=84877
-Time:	7.729509115219116
-estimate community:	296
-approximated diamter:	None
-nmi_score: 0.5608375232748729
-ari_score: 0.2622243703097817
-f1_score: 0.009506923685820368

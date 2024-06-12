@@ -1,8 +1,0 @@
-Network:	./data/real_world/railway/network.dat
-entire graph V=301	E=1224
-Time:	0.08151984214782715
-estimate community:	19
-model:	ktruss
-nmi_score: 0.6188684519052193
-ari_score: 0.2874810827949062
-f1_score: 0.11056235313183697

@@ -19,7 +19,7 @@
 
 /* Constants */
 
-#define K 571             // Maximum number of groups
+#define K 600             // Maximum number of groups
 #define MCSWEEPS 50000     // Number of Monte Carlo sweeps to perform
 #define SAMPLE 1           // Rate at which to print out results, in sweeps
 
