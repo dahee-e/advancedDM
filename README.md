@@ -35,13 +35,13 @@ cd estimate_cmty
 
 ##### Example : Estimating the number of communities in Real-World dataset. 
 ```
-./communities < ../data/real_world/karate/karate.gml > ./estimate_value/karate.txt
-./communities < ../data/real_world/dolphin/dolphin.gml > ./estimate_value/dolphin.txt
-./communities < ../data/real_world/football/football.gml > ./estimate_value/football.txt
-./communities < ../data/real_world/polbooks/polbooks.gml > ./estimate_value/polbooks.txt
-./communities < ../data/real_world/railway/railway.gml > ./estimate_value/railway.txt
-./communities < ../data/real_world/mexican/mexican.gml > ./estimate_value/mexican.txt
-./communities < ../data/real_world/strike/strike.gml > ./estimate_value/strike.txt
+./communities < ../data/real_world/karate/network.gml > ./estimate_value/karate.txt
+./communities < ../data/real_world/dolphin/network.gml > ./estimate_value/dolphin.txt
+./communities < ../data/real_world/football/network.gml > ./estimate_value/football.txt
+./communities < ../data/real_world/polbooks/network.gml > ./estimate_value/polbooks.txt
+./communities < ../data/real_world/railway/network.gml > ./estimate_value/railway.txt
+./communities < ../data/real_world/mexican/network.gml > ./estimate_value/mexican.txt
+./communities < ../data/real_world/strike/network.gml > ./estimate_value/strike.txt
 ```
 ### 📊 Results: Estimated Number of Communities
 
