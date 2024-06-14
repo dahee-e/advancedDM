@@ -75,62 +75,62 @@ cd estimate_cmty
 
 ### (1) Running Centrality-based Community Detection (CCD)
 ```
-python main.py --network <network_path> --approach seednode --numCommunity <the number of communities>
+python main.py --network <network_path> --approach CCD --numCommunity <the number of communities>
 ```
 
 ##### Example : Running CCD in TC1 dataset. 
 ```
-python main.py --network ./data/TC1/TC1-1/1-1.dat --approach seednode --numCommunity 137
-python main.py --network ./data/TC1/TC1-2/1-2.dat --approach seednode --numCommunity 151
-python main.py --network ./data/TC1/TC1-3/1-3.dat --approach seednode --numCommunity 171
-python main.py --network ./data/TC1/TC1-4/1-4.dat --approach seednode --numCommunity 186
-python main.py --network ./data/TC1/TC1-5/1-5.dat --approach seednode --numCommunity 209
-python main.py --network ./data/TC1/TC1-6/1-6.dat --approach seednode --numCommunity 230
-python main.py --network ./data/TC1/TC1-7/1-7.dat --approach seednode --numCommunity 256
-python main.py --network ./data/TC1/TC1-8/1-8.dat --approach seednode --numCommunity 296
-python main.py --network ./data/TC1/TC1-9/1-9.dat --approach seednode --numCommunity 294
-python main.py --network ./data/TC1/TC1-10/1-10.dat --approach seednode --numCommunity 294
+python main.py --network ./data/TC1/TC1-1/1-1.dat --approach CCD --numCommunity 137
+python main.py --network ./data/TC1/TC1-2/1-2.dat --approach CCD --numCommunity 151
+python main.py --network ./data/TC1/TC1-3/1-3.dat --approach CCD --numCommunity 171
+python main.py --network ./data/TC1/TC1-4/1-4.dat --approach CCD --numCommunity 186
+python main.py --network ./data/TC1/TC1-5/1-5.dat --approach CCD --numCommunity 209
+python main.py --network ./data/TC1/TC1-6/1-6.dat --approach CCD --numCommunity 230
+python main.py --network ./data/TC1/TC1-7/1-7.dat --approach CCD --numCommunity 256
+python main.py --network ./data/TC1/TC1-8/1-8.dat --approach CCD --numCommunity 296
+python main.py --network ./data/TC1/TC1-9/1-9.dat --approach CCD --numCommunity 294
+python main.py --network ./data/TC1/TC1-10/1-10.dat --approach CCD --numCommunity 294
 ```
 
 ##### Example : Running CCD in Real-World dataset. 
 ```
-python main.py --network ./data/real_world/dolphin/network.dat --approach seednode  --numCommunity 3
-python main.py --network ./data/real_world/karate/network.dat --approach seednode --numCommunity 2
-python main.py --network ./data/real_world/football/network.dat --approach seednode --numCommunity 8
-python main.py --network ./data/real_world/mexican/network.dat --approach seednode  --numCommunity 3
-python main.py --network ./data/real_world/railway/network.dat --approach seednode  --numCommunity 19
-python main.py --network ./data/real_world/strike/network.dat --approach seednode --numCommunity 2
-python main.py --network ./data/real_world/polbooks/network.dat --approach seednode --numCommunity 5
+python main.py --network ./data/real_world/dolphin/network.dat --approach CCD  --numCommunity 3
+python main.py --network ./data/real_world/karate/network.dat --approach CCD --numCommunity 2
+python main.py --network ./data/real_world/football/network.dat --approach CCD --numCommunity 8
+python main.py --network ./data/real_world/mexican/network.dat --approach CCD  --numCommunity 3
+python main.py --network ./data/real_world/railway/network.dat --approach CCD  --numCommunity 19
+python main.py --network ./data/real_world/strike/network.dat --approach CCD --numCommunity 2
+python main.py --network ./data/real_world/polbooks/network.dat --approach CCD --numCommunity 5
 ```
 
 ### (2) Running Truss-based Community Detection (TCD)
 ```
-python main.py --network <network_path> --approach seedsubgraph --numCommunity <the number of communities>
+python main.py --network <network_path> --approach TCD --numCommunity <the number of communities>
 ```
 
 ##### Example : Running TCD in TC1 dataset. 
 ```
-python main.py --network ./data/TC1/TC1-1/1-1.dat --approach seedsubgraph --numCommunity 137
-python main.py --network ./data/TC1/TC1-2/1-2.dat --approach seedsubgraph --numCommunity 151
-python main.py --network ./data/TC1/TC1-3/1-3.dat --approach seedsubgraph --numCommunity 171
-python main.py --network ./data/TC1/TC1-4/1-4.dat --approach seedsubgraph --numCommunity 186
-python main.py --network ./data/TC1/TC1-5/1-5.dat --approach seedsubgraph --numCommunity 209
-python main.py --network ./data/TC1/TC1-6/1-6.dat --approach seedsubgraph --numCommunity 230
-python main.py --network ./data/TC1/TC1-7/1-7.dat --approach seedsubgraph --numCommunity 256
-python main.py --network ./data/TC1/TC1-8/1-8.dat --approach seedsubgraph --numCommunity 296
-python main.py --network ./data/TC1/TC1-9/1-9.dat --approach seedsubgraph --numCommunity 294
-python main.py --network ./data/TC1/TC1-10/1-10.dat --approach seedsubgraph --numCommunity 294
+python main.py --network ./data/TC1/TC1-1/1-1.dat --approach TCD --numCommunity 137
+python main.py --network ./data/TC1/TC1-2/1-2.dat --approach TCD --numCommunity 151
+python main.py --network ./data/TC1/TC1-3/1-3.dat --approach TCD --numCommunity 171
+python main.py --network ./data/TC1/TC1-4/1-4.dat --approach TCD --numCommunity 186
+python main.py --network ./data/TC1/TC1-5/1-5.dat --approach TCD --numCommunity 209
+python main.py --network ./data/TC1/TC1-6/1-6.dat --approach TCD --numCommunity 230
+python main.py --network ./data/TC1/TC1-7/1-7.dat --approach TCD --numCommunity 256
+python main.py --network ./data/TC1/TC1-8/1-8.dat --approach TCD --numCommunity 296
+python main.py --network ./data/TC1/TC1-9/1-9.dat --approach TCD --numCommunity 294
+python main.py --network ./data/TC1/TC1-10/1-10.dat --approach TCD --numCommunity 294
 ```
 
 ##### Example : Running TCD in Real-World dataset. 
 ```
-python main.py --network ./data/real_world/dolphin/network.dat --approach seedsubgraph  --numCommunity 3
-python main.py --network ./data/real_world/karate/network.dat --approach seedsubgraph --numCommunity 2
-python main.py --network ./data/real_world/football/network.dat --approach seedsubgraph --numCommunity 8
-python main.py --network ./data/real_world/mexican/network.dat --approach seedsubgraph  --numCommunity 3
-python main.py --network ./data/real_world/railway/network.dat --approach seedsubgraph  --numCommunity 19
-python main.py --network ./data/real_world/strike/network.dat --approach seedsubgraph --numCommunity 2
-python main.py --network ./data/real_world/polbooks/network.dat --approach seedsubgraph --numCommunity 5
+python main.py --network ./data/real_world/dolphin/network.dat --approach TCD  --numCommunity 3
+python main.py --network ./data/real_world/karate/network.dat --approach TCD --numCommunity 2
+python main.py --network ./data/real_world/football/network.dat --approach TCD --numCommunity 8
+python main.py --network ./data/real_world/mexican/network.dat --approach TCD  --numCommunity 3
+python main.py --network ./data/real_world/railway/network.dat --approach TCD  --numCommunity 19
+python main.py --network ./data/real_world/strike/network.dat --approach TCD --numCommunity 2
+python main.py --network ./data/real_world/polbooks/network.dat --approach TCD --numCommunity 5
 ``` 
 
 
@@ -142,7 +142,7 @@ python main.py --network ./data/real_world/polbooks/network.dat --approach seeds
 
 ```--approach```: Specify the approach to detect communities.
 - Available approaches are:
-  - ```seednode```: Centrality-based Community Detection (CCD)
+  - ```CCD```: Centrality-based Community Detection (CCD)
       - ```--centrality``` : Specify the centrality measure to select seed nodes. (default: degree, eigenvector, local_clustering_coefficient, PageRank)
       - Available centrality measures are:
           - degree
@@ -153,9 +153,9 @@ python main.py --network ./data/real_world/polbooks/network.dat --approach seeds
       - Our method uses **degree, eigenvector, local_clustering_coefficient, and PageRank** centrality measures to select seed nodes. (default setting)
       - Example Usage:
         ```
-        python main.py --network <network_path> --approach seednode --numCommunity <the number of communities> --centrality <centrality_measure>
+        python main.py --network <network_path> --approach CCD --numCommunity <the number of communities> --centrality <centrality_measure>
         ```
-  - ```seedsubgraph```: Truss-based Community Detection (TCD)
+  - ```TCD```: Truss-based Community Detection (TCD)
 
 
 
