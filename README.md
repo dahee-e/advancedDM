@@ -19,6 +19,59 @@ cd estimate_cmty
 ./communities < input.gml > output.txt
 ```
 
+### ✅ Update the K Value and Run the Estimation Code
+1. Navigate to the `estimate_cmty` directory:
+   ```
+   cd estimate_cmty
+   ```
+
+2. Open the `communities.c` file and update the K value:
+   - Locate line 22:
+     ```c
+     #define K 571
+     ```
+   - Change the value of K to the desired value. For example, to set K to 599:
+     ```c
+     #define K 599
+     ```
+
+3. Compile the code:
+   ```
+   make
+   ```
+
+4. Run the estimation code:
+   ```
+   ./communities < input.gml > output.txt
+   ```
+
+### K Values for Datasets
+
+#### Synthetic Datasets (TC1-1 to TC1-10)
+
+| Dataset | Avg Degree | K   | Dataset | Avg Degree | K   |
+|:-------:|:----------:|:---:|:-------:|:----------:|:---:|
+| TC1-1   | 16.6882     | 599 | TC1-6   | 16.9008     | 591 |
+| TC1-2   | 17.2202     | 580 | TC1-7   | 17.4904     | 571 |
+| TC1-3   | 17.175      | 582 | TC1-8   | 16.9754     | 589 |
+| TC1-4   | 17.4428     | 573 | TC1-9   | 17.1318     | 583 |
+| TC1-5   | 17.2476     | 579 | TC1-10  | 17.43       | 573 |
+
+#### Real-World Datasets
+
+|  Dataset  | Avg Degree | K   |
+|:---------:|:----------:|:---:|
+|  Karate   | 4.58823     | 7   |
+|  Dolphin  | 5.1290      | 12  |
+| Football  | 10.6609     | 10  |
+|  Railway  | 8.13289     | 37  |
+| Polbooks  | 8.4         | 12  |
+|  Strike   | 3.16667     | 7   |
+|  Mexican  | 6.68571     | 5   |
+
+
+
+
 ##### Example : Estimating the number of communities in TC1 dataset. 
 ```
 ./communities < ../data/TC1/TC1-1/1-1.gml > ./estimate_value/TC1.txt
