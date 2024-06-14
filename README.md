@@ -12,14 +12,7 @@ This repository contains two primary algorithms for community detection:
 
 To estimate the number of communities, ensure your input file is in `.gml` format.
 
-##### ✅ Run the Estimation code 
-Navigate to the `estimate_cmty` directory and run the following command:
-```
-cd estimate_cmty 
-./communities < input.gml > output.txt
-```
-
-### ✅ Update the K Value and Run the Estimation Code
+#### ✅ Update the K Value and Run the Estimation Code
 1. Navigate to the `estimate_cmty` directory:
    ```
    cd estimate_cmty
